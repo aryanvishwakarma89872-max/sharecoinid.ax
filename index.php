@@ -155,35 +155,31 @@ button.get-otp-btn{
 
     margin-top:18px;
 }
-.top-header{
-    display:flex;
-    align-items:center;
-    padding:18px 20px;
-    background:#fff;
+..top-header{
+    display: flex;
+    align-items: center;
+    padding: 18px 20px;
+    background: #fff;
+    position: relative;
+    z-index: 9999;
 }
 
 .close-btn{
-    text-decoration:none;
-    color:#333;
-    font-size:35px;
-    margin-right:18px;
-    line-height:1;
+    text-decoration: none;
+    color: #333;
+    font-size: 34px;
+    line-height: 1;
+    margin-right: 15px;
+    font-weight: bold;
 }
 
-.top-header{
-    display:flex;
-    align-items:center;
-    padding:18px 20px;
-    background:#fff;
-    position:relative;
-    z-index:99999;
-}
-    .top-header h2{
+.top-header h2{
     margin: 0;
     font-size: 22px;
-    color: #000;
     font-weight: 700;
-    }
+    color: #222;
+    white-space: nowrap;
+}
 </style>
 </head>
 <body>
